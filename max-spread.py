@@ -23,8 +23,6 @@ def max_spread():
 
       #calculate the spread 
        spread = (maxTemp - minTemp)
-
-       
        #get the maxspread and print its day and value
        if spread > max_spread:
          max_spread = spread
