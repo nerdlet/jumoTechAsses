@@ -8,7 +8,7 @@
 - Navigate inside the folder where the main max-spread.py file is located by using the cd command
 - Once inside the folder,run the command:_python max-spread.py_
 
-** Assumptions**
+### Assumptions****
 - The program is running on a Windows Os System.
 - The weather data provided is reliable and unchanging.
 - The astericks alongside some values on the _weather.dat_ file present an unconfimed value,therefore data is used as is
