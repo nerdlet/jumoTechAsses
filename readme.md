@@ -21,3 +21,16 @@ Assuming that your program is called weather.py, then a sample run will look lik
 * You are **not** allowed to edit the weather.dat file before running your program on it. 
 * Include a readme.txt file explaining how to run your code, and detailing any assumptions you have made.
 * Focus on producing a **correct** and **efficient** solution with well-organized, readable code. 
+
+
+#How to run the program
+You will need to have python version 3 or greater installed in order to run this program.
+Unzip the folder project
+Open the command line interface 
+Navigate inside the folder where the main max-spread.py file is located by using the cd command
+Once inside the folder,run the command: python max-spread.py 
+
+#Assumptions
+The program is running on a Windos Os System.
+The weather data provided is reliable and unchanging.
+The astericks alongside some values on the weather.dat file present an unconfimed value,therefore data is used as is
