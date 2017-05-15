@@ -17,14 +17,15 @@ def max_spread():
       #split the rows into lists
        row = line.split()
 
-      #strip the *  from the min and max values and remain with numeric characters 
+      #strip * from the maxTemp and minTemp values and remain with numeric characters 
        maxTemp = float(row[1].strip('*'))
        minTemp = float(row[2].strip('*')) 
 
-      #strip the *  from the min and max values and remain with numeric characters 
-       spread = (maxTemp - minTemp)
+      #calculate the spread 
+       spread = (maxTemp - minTemp)
+
        
-       #compare the maxspread and the difference between MxT and MnT
+       #get the maxspread and print its day and value
        if spread > max_spread:
          max_spread = spread
          day = row[0] 
